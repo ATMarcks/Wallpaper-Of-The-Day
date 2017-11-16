@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Network Options">
+
+        <CheckBoxPreference
+            android:key="pref_mobileDataEnabled"
+            android:title="Download over mobile data"
+            android:summary="If checked, application will download wallpapers over mobile data"
+            />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
